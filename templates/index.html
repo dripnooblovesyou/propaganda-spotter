@@ -3,7 +3,39 @@
 {% block title %}Propaganda Spotter{% endblock %}
 
 {% block content %}
-<h1>HELLO FROM FLASK</h1>
-<p>If you see this, templates are working.</p>
-{% endblock %}
+<h1>Propaganda Spotter</h1>
 
+<p>{{ example.text }}</p>
+
+<form method="POST">
+  {% for technique in [
+    "Loaded Language",
+    "Fear Appeal",
+    "Bandwagon",
+    "In-group vs Out-group",
+    "Oversimplification",
+    "Authority Appeal"
+  ] %}
+    <label>
+      <input
+        type="checkbox"
+        name="techniques"
+        value="{{ technique }}"
+        {% if technique in selected %}checked{% endif %}
+      >
+      {{ technique }}
+    </label><br>
+  {% endfor %}
+
+  <br>
+  <button type="submit">Submit</button>
+</form>
+
+{% if feedback %}
+  <hr>
+  <h2>Results</h2>
+  <p><strong>Correct:</strong> {{ feedback.correct_selected }}</p>
+  <p><strong>Missed:</strong> {{ feedback.missed }}</p>
+  <p><strong>Incorrect:</strong> {{ feedback.incorrect_selected }}</p>
+{% endif %}
+{% endblock %}
