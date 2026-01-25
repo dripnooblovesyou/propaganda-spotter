@@ -1,11 +1,90 @@
 [
   {
     "id": 1,
-    "text": "Only true patriots support this law. If we do not act now, our nation will fall.",
-    "techniques": [
-      "Loaded Language",
-      "Fear Appeal",
-      "In-group vs Out-group"
-    ]
+    "text": "Only a strong leader can protect our nation from total collapse and chaos.",
+    "techniques": ["Fear Appeal", "Authority Appeal"],
+    "explanation": {
+      "Fear Appeal": "Suggests disaster if the audience does not support the leader.",
+      "Authority Appeal": "Implies one leader alone has the power to save the nation."
+    }
+  },
+  {
+    "id": 2,
+    "text": "Everyone who truly loves this country supports this policy.",
+    "techniques": ["Bandwagon", "In-group vs Out-group"],
+    "explanation": {
+      "Bandwagon": "Claims universal support without evidence.",
+      "In-group vs Out-group": "Divides people into patriots and outsiders."
+    }
+  },
+  {
+    "id": 3,
+    "text": "This corrupt system has failed us again, proving that only radical change can fix it.",
+    "techniques": ["Loaded Language", "Oversimplification"],
+    "explanation": {
+      "Loaded Language": "Uses emotionally charged words like 'corrupt' and 'failed'.",
+      "Oversimplification": "Presents one solution to a complex problem."
+    }
+  },
+  {
+    "id": 4,
+    "text": "If we allow them to win, your family’s safety will be at risk.",
+    "techniques": ["Fear Appeal"],
+    "explanation": {
+      "Fear Appeal": "Uses fear of personal harm to persuade."
+    }
+  },
+  {
+    "id": 5,
+    "text": "Real citizens know that this is the only logical choice.",
+    "techniques": ["In-group vs Out-group", "Authority Appeal"],
+    "explanation": {
+      "In-group vs Out-group": "Defines who counts as a 'real' citizen.",
+      "Authority Appeal": "Claims the choice is unquestionably correct."
+    }
+  },
+  {
+    "id": 6,
+    "text": "Our opponents hate freedom and want to destroy everything we stand for.",
+    "techniques": ["Loaded Language", "Oversimplification"],
+    "explanation": {
+      "Loaded Language": "Uses extreme language to provoke emotion.",
+      "Oversimplification": "Reduces opponents to a single negative motive."
+    }
+  },
+  {
+    "id": 7,
+    "text": "Every hardworking family agrees this plan is the best path forward.",
+    "techniques": ["Bandwagon", "In-group vs Out-group"],
+    "explanation": {
+      "Bandwagon": "Claims unanimous support.",
+      "In-group vs Out-group": "Suggests disagreement means you are not hardworking."
+    }
+  },
+  {
+    "id": 8,
+    "text": "Experts say this policy will save the economy, so questioning it is pointless.",
+    "techniques": ["Authority Appeal"],
+    "explanation": {
+      "Authority Appeal": "Uses unnamed experts to shut down debate."
+    }
+  },
+  {
+    "id": 9,
+    "text": "This is the final chance to stop our country from falling apart.",
+    "techniques": ["Fear Appeal", "Oversimplification"],
+    "explanation": {
+      "Fear Appeal": "Creates urgency and fear.",
+      "Oversimplification": "Ignores alternative outcomes or solutions."
+    }
+  },
+  {
+    "id": 10,
+    "text": "Anyone who disagrees clearly doesn’t care about the future.",
+    "techniques": ["In-group vs Out-group", "Loaded Language"],
+    "explanation": {
+      "In-group vs Out-group": "Attacks dissenters’ character.",
+      "Loaded Language": "Frames disagreement as immoral."
+    }
   }
 ]
