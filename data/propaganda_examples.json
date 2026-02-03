@@ -86,5 +86,65 @@
       "In-group vs Out-group": "Attacks dissenters’ character.",
       "Loaded Language": "Frames disagreement as immoral."
     }
+  },
+  {
+    "id": 11,
+    "text": "Real citizens know this is the only way to protect our future.",
+    "techniques": ["In-group vs Out-group", "Bandwagon"],
+    "explanation": "The statement divides people into 'real citizens' and others while implying that the majority already agrees with the claim."
+  },
+  {
+    "id": 12,
+    "text": "If we don’t act now, our communities will become unsafe.",
+    "techniques": ["Fear Appeal"],
+    "explanation": "The message uses fear about safety to pressure agreement without providing evidence or alternatives."
+  },
+  {
+    "id": 13,
+    "text": "This issue is simple: support the plan or accept failure.",
+    "techniques": ["Oversimplification"],
+    "explanation": "A complex issue is reduced to only two outcomes, ignoring nuance and other possible solutions."
+  },
+  {
+    "id": 14,
+    "text": "Experts have confirmed that this policy is the best option.",
+    "techniques": ["Authority Appeal"],
+    "explanation": "The argument relies on unnamed experts instead of explaining the reasoning or evidence behind the policy."
+  },
+  {
+    "id": 15,
+    "text": "Anyone who opposes this idea is clearly reckless.",
+    "techniques": ["Loaded Language"],
+    "explanation": "Emotionally charged language is used to discredit opposition instead of addressing their arguments."
+  },
+  {
+    "id": 16,
+    "text": "Everyone who cares about this country is already on board.",
+    "techniques": ["Bandwagon", "In-group vs Out-group"],
+    "explanation": "The statement pressures people to conform and suggests that disagreement means not belonging to the group."
+  },
+  {
+    "id": 17,
+    "text": "This policy will either save our economy or destroy it.",
+    "techniques": ["Fear Appeal", "Oversimplification"],
+    "explanation": "Fear is used alongside an oversimplified choice that ignores middle-ground outcomes."
+  },
+  {
+    "id": 18,
+    "text": "Trusted professionals agree that there is no better alternative.",
+    "techniques": ["Authority Appeal"],
+    "explanation": "The claim depends on vague authority figures and dismisses other options without explanation."
+  },
+  {
+    "id": 19,
+    "text": "They want to take away what hardworking people earned.",
+    "techniques": ["In-group vs Out-group", "Loaded Language"],
+    "explanation": "The statement creates a division between groups and uses emotionally charged wording to provoke resentment."
+  },
+  {
+    "id": 20,
+    "text": "If we allow this change, everything we value is at risk.",
+    "techniques": ["Fear Appeal"],
+    "explanation": "The message exaggerates potential consequences to create fear and urgency without evidence."
   }
 ]

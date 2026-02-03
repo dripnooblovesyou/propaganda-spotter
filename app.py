@@ -10,13 +10,17 @@ def load_examples():
 
 @app.route("/", methods=["GET", "POST"])   
 def home():
-    #return render_template("index.html")
-    return "<h1>THIS IS THE REAL FILE</h1>"
+    return render_template("index.html")
 
 @app.route("/practice", methods=["GET", "POST"])
 def practice():
     examples = load_examples()
-    example = random.choice(examples)
+
+    if request.method == "POST":
+       example_id = int(request.form.get("example_id"))
+       example = next((ex for ex in examples if ex["id"] == example_id), None)
+    else:
+        example = random.choice(examples)
 
     feedback = None
     selected = []
